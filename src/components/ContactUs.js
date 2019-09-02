@@ -1,7 +1,8 @@
 import React from 'react';
+import linkedInLogo from './li-logo.png';
 
 let data = {
-  linkedinId: 'Your LinkedIn Id'
+  linkedinId: 'Test'
 };
 
 export default function ContactUs() {
@@ -17,7 +18,10 @@ export default function ContactUs() {
       <div className="row">
         <aside className="eigth columns footer-widgets">
           <div className="widget">
-            <h4>LinkedIn: {data.linkedinId}</h4>
+            <h4>
+              <img src={linkedInLogo} height="42" width="42" />
+              linked: {data.linkedinId}
+            </h4>
           </div>
         </aside>
       </div>

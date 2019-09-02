@@ -1,4 +1,5 @@
 import React from 'react';
+import linkedInLogo from './li-logo.png';
 
 let data = {
   name: 'Alexander Scherer',
@@ -9,7 +10,8 @@ let data = {
     {
       name: 'linkedin',
       url: 'https://www.linkedin.com/in/rahul-bhatia-67ba08121/',
-      className: 'fa fa-linkedin'
+      className: 'fa fa-linkedin',
+      image: linkedInLogo
     },
     {
       name: 'github',
@@ -54,7 +56,7 @@ export default function Header() {
         <div className="row banner">
           <div className="banner-text">
             <h1 className="responsive-headline">I am {data.name}.</h1>
-            <h3 style={{ color: '#fff', fontFamily: 'sans-serif ' }}>
+            <h3>
               I am a {data.role}.{data.roleDescription}
             </h3>
             <hr />
@@ -64,7 +66,8 @@ export default function Header() {
                   return (
                     <li key={item.name}>
                       <a href={item.url} target="_blank">
-                        <i className={item.className}></i>
+                        {item.name}
+                        <img src={item.image} height="42" width="42" />
                       </a>
                     </li>
                   );
