@@ -1170,11 +1170,48 @@ footer .social-links li:first-child {
  ----------------------------------------------------------------------- */
 
   .skillsone li {
-    width: 137px;
+    width: 143px;
     padding-left: 0px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 0;
   }
+
+  .skillsone ul {
+    padding-left: 10px;
+  }
+
+  .skillstwo li {
+    width: 143px;
+    padding-left: 0px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 0;
+  }
+
+  .skills .skillstwo ul {
+    padding-left: 10px;
+  }
+
   .skillsone {
     padding-left: 0px;
+  }
+
+  .bars .skills {
+    padding-left: 10px;
+  }
+
+  .bars li em {
+    font-size: 8px;
+    font-stretch: narrower;
+  }
+
+  .skilldescription {
+    text-align: center;
+  }
+
+  #resume .main-col {
+    padding: 10px;
   }
 
   #resume h3 span {

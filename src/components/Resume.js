@@ -199,9 +199,9 @@ const BarExpand = styled.span`
 
   display: inline - block;
   height: 21px;
-  border-left: 1px solid black;
+  /* border-left: 1px solid black; */
   line-height: 21px;
-  border-radius: 3px 0 0 3px;
+  /* border-radius: 3px 0 0 3px; */
 `;
 
 // .bar-expand {
