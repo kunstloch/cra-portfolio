@@ -190,7 +190,7 @@ let data = {
 
 const BarExpand = styled.span`
   position: absolute;
-  left: ;
+  /* left: ; */
   top: 0;
   background: #0bbdf4;
 
