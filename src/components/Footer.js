@@ -4,17 +4,17 @@ let data = {
   socialLinks: [
     {
       name: 'linkedin',
-      url: 'https://www.linkedin.com/in/rahul-bhatia-67ba08121/',
+      url: 'https://www.linkedin.com/in/alexanderscherer/',
       className: 'fa fa-linkedin'
     },
     {
       name: 'github',
-      url: 'http://github.com/rbhatia46',
+      url: 'https://github.com/kunstloch',
       className: 'fa fa-github'
     },
     {
-      name: 'skype',
-      url: 'http://twitter.com/rbhatia46',
+      name: 'xing',
+      url: 'https://www.xing.com/app/startpage',
       className: 'fa fa-twitter'
     }
   ]

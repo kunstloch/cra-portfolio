@@ -1,12 +1,11 @@
 import React from 'react';
-import profilePic from './profilepic.jpg';
+import profilePic from './profilePic.jpg';
 
 let data = {
-  name: 'Alexander Scherer',
-  aboutme:
-    'I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.',
-  address: 'India',
-  website: 'https://rbhatia46.github.io'
+  name: 'Alexander Scherer-Sokolowski',
+  aboutme: `I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.`,
+  address: 'Austria',
+  website: 'alex.scherer@gmx.at'
 };
 
 export default function About() {
@@ -19,7 +18,28 @@ export default function About() {
 
         <div className="nine columns main-col">
           <h2>About Me</h2>
-          <p>{data.aboutme}</p>
+          {/* <p>{data.aboutme}</p> */}
+          <p>
+            After 15 successful years in b2b sales and business development -
+            from cold calling to project implementation in the area of SaaS
+            platforms - it was time for me to focus on something I've been
+            interested in all along: to be able to understand online products
+            "behind the scenes" and actively influence how they are build.
+          </p>
+          <p>
+            In an intensive web development bootcamp education at UpLeveled, I
+            not only learned JavaScript, React, HTML and CSS, but also applied
+            these in many practical exercises and projects. I also work with
+            Nexts.js, TypeScript and GraphQL as part of first end-to-end
+            applications.
+          </p>
+          <p>
+            The bootcamp was only the beginning of my lifelong-learning journey
+            in web development, but a good proof that I can learn complex
+            subjects in a very short time. I am convinced that combining my web
+            development knowledge with the long-time experience in sales is a
+            benefit that my future employer will profit from.
+          </p>
 
           <div className="row">
             <div className="columns contact-details">

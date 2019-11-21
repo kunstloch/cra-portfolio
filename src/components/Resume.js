@@ -1,55 +1,257 @@
 import React from 'react';
+import styled from 'styled-components';
 
 let data = {
   education: [
     {
-      UniversityName: 'The LNM Insitute of Information Technology',
-      specialization: 'Some specialization',
-      MonthOfPassing: 'Aug',
-      YearOfPassing: '2020',
+      UniversityName: 'Fullstack Web Development Bootcamp ',
+      specialization: 'UpLeveled GmbH',
+      MonthOfPassing: 'Nov',
+      YearOfPassing: '2019',
       Achievements: 'Some Achievements'
     },
     {
-      UniversityName: 'Some University',
-      specialization: 'Some specialization',
-      MonthOfPassing: 'Jan',
-      YearOfPassing: '2018',
+      UniversityName: 'Communications And Political Science',
+      specialization: 'University of Vienna - Second Study Section Completed',
+      MonthOfPassing: '   ',
+      YearOfPassing: '2005',
+      Achievements: 'Some Achievements'
+    },
+    {
+      UniversityName: `Higher School Certificat`,
+      specialization: `Bundesrealgymnasium Zell am See`,
+      MonthOfPassing: '   ',
+      YearOfPassing: '1995',
       Achievements: 'Some Achievements'
     }
   ],
   work: [
     {
-      CompanyName: 'Some Company',
-      specialization: 'Some specialization',
-      MonthOfLeaving: 'Jan',
-      YearOfLeaving: '2018',
+      CompanyName: 'whatchado GmbH',
+      CompanyInfo: 'Vienna - video employer branding platform',
+      specialization: 'Sales Manager',
+      MonthOfLeaving: 'present',
+      YearOfLeaving: '',
+      MonthOfStarting: 'Jan',
+      YearOfStarting: '2017',
+      Achievements:
+        '- New Biz b2b new customer acquisition with focus on Austria and Germany'
+    },
+    {
+      CompanyName: 'Adverity GmbH',
+      CompanyInfo: 'Vienna - marketing intelligence SaaS platform',
+      specialization:
+        'Sales / Business Development, International and Agencies',
+      MonthOfLeaving: 'Dez',
+      YearOfLeaving: '2016',
+      MonthOfStarting: 'Jul',
+      YearOfStarting: '2014',
+      Achievements: `
+      `
+    },
+    {
+      CompanyName: 'kununu GmbH / Xing',
+      CompanyInfo: 'Vienna - employer ranking platform',
+      specialization: 'Sales Manager, Team Lead Large Accounts DACH',
+      MonthOfLeaving: 'May',
+      YearOfLeaving: '2014',
+      MonthOfStarting: 'Jun',
+      YearOfStarting: '2011',
       Achievements: 'Some Achievements'
     },
     {
-      CompanyName: 'Some Company',
-      specialization: 'Some specialization',
-      MonthOfLeaving: 'Jan',
-      YearOfLeaving: '2018',
+      CompanyName: 'Immobilien.NET',
+      CompanyInfo: 'Vienna - real estate platform',
+      specialization: 'Sales and Key Account Manager Online Advertising',
+      MonthOfLeaving: 'May',
+      YearOfLeaving: '2011',
+      MonthOfStarting: 'Aug',
+      YearOfStarting: '2009',
+      Achievements: 'Some Achievements'
+    },
+    {
+      CompanyName: 'StepStone Österreich GmbH',
+      CompanyInfo: 'Vienna - online job board',
+      specialization: 'Account Manager',
+      MonthOfLeaving: 'Aug',
+      YearOfLeaving: '2009',
+      MonthOfStarting: 'Jul',
+      YearOfStarting: '2008',
+      Achievements: 'Some Achievements'
+    },
+    {
+      CompanyName: 'EMBERS Consulting',
+      CompanyInfo: 'Vienna - business call center',
+      specialization: 'Account and Quality Management',
+      MonthOfLeaving: 'Aug',
+      YearOfLeaving: '2009',
+      MonthOfStarting: 'Nov',
+      YearOfStarting: '2006',
       Achievements: 'Some Achievements'
     }
   ],
-  skillsDescription: 'Your skills here',
+  skillsDescriptionOne: 'Tech Skills',
   skills: [
     {
-      skillname: 'HTML5'
+      skillname: 'JavaScript',
+      skillpercent: '70%',
+      skillcolor: '#f7df1e'
     },
     {
-      skillname: 'CSS'
+      skillname: 'React',
+      skillpercent: '70%',
+      skillcolor: '#61DBFB'
     },
     {
-      skillname: 'Reactjs'
+      skillname: 'Next.js',
+      skillpercent: '70%',
+      skillcolor: '#323232'
+    },
+    {
+      skillname: 'Node.js',
+      skillpercent: '60%',
+      skillcolor: '#68A063'
+    },
+    {
+      skillname: 'TypeScript',
+      skillpercent: '50%',
+      skillcolor: '#007acc'
+    },
+    {
+      skillname: 'HTML5',
+      skillpercent: '70%',
+      skillcolor: '#f06529'
+    },
+    {
+      skillname: 'CSS3',
+      skillpercent: '75%',
+      skillcolor: '#2965f1'
+    },
+    {
+      skillname: 'GraphQL',
+      skillpercent: '58%',
+      skillcolor: ' #e535ab'
+    },
+    {
+      skillname: 'GIT',
+      skillpercent: '65%',
+      skillcolor: '#3E2C00'
+    }
+  ],
+  skillsDescriptionTwo: 'Soft Skills',
+  skillsTwo: [
+    {
+      skillname: 'Communication ',
+      skillpercent: '80%',
+      skillcolor: '#f7df1e'
+    },
+    {
+      skillname: 'Teachability ',
+      skillpercent: '78%',
+      skillcolor: '#61DBFB'
+    },
+    {
+      skillname: 'Abstract Thinking',
+      skillpercent: '70%',
+      skillcolor: '#323232'
+    },
+    {
+      skillname: 'Persistence',
+      skillpercent: '67%',
+      skillcolor: '#68A063'
+    },
+    {
+      skillname: 'Helpfulness',
+      skillpercent: '82%',
+      skillcolor: '#007acc'
+    },
+    {
+      skillname: 'Creativity',
+      skillpercent: '70%',
+      skillcolor: '#f06529'
+    },
+    {
+      skillname: 'Patience',
+      skillpercent: '63%',
+      skillcolor: '#2965f1'
+    },
+    {
+      skillname: 'Project Planning',
+      skillpercent: '73%',
+      skillcolor: ' #e535ab'
+    },
+    {
+      skillname: 'Critical Thinking',
+      skillpercent: '88%',
+      skillcolor: '#3E2C00'
     }
   ]
 };
 
+const BarExpand = styled.span`
+  position: absolute;
+  left: ;
+  top: 0;
+  background: #0bbdf4;
+
+  margin: 0;
+  padding-right: 22px;
+
+  display: inline - block;
+  height: 21px;
+  border-left: 1px solid black;
+  line-height: 21px;
+  border-radius: 3px 0 0 3px;
+`;
+
+// .bar-expand {
+//   position: absolute;
+//   left: 0;
+//   top: 0;
+
+//   margin: 0;
+//   padding - right: 24px;
+//   background: #313131;
+//   display: inline - block;
+//   height: 42px;
+//   line - height: 42px;
+//   border - radius: 3px 0 0 3px;
+// }
+
 export default function Resume() {
   return (
     <section id="resume">
+      <div className="row work">
+        <div className="three columns header-col">
+          <h1>
+            <span>Work</span>
+          </h1>
+        </div>
+
+        <div className="nine columns main-col">
+          {data.work &&
+            data.work.map((item, index) => {
+              return (
+                <div className="row item" key={index}>
+                  <div className="twelve columns">
+                    <h3>
+                      {item.CompanyName} <span> {item.CompanyInfo}</span>
+                    </h3>
+
+                    <p className="info">
+                      <em className="date">
+                        {item.MonthOfStarting} {item.YearOfStarting} -{' '}
+                        {item.MonthOfLeaving} {item.YearOfLeaving}
+                      </em>
+                      <span> | </span> {item.specialization}
+                    </p>
+                  </div>
+                </div>
+              );
+            })}
+        </div>
+      </div>
+
       <div className="row education">
         <div className="three columns header-col">
           <h1>
@@ -65,41 +267,12 @@ export default function Resume() {
                   <div className="twelve columns">
                     <h3>{item.UniversityName}</h3>
                     <p className="info">
-                      {item.specialization}
-                      <span>&bull;</span>{' '}
                       <em className="date">
                         {item.MonthOfPassing} {item.YearOfPassing}
-                      </em>
-                    </p>
-                    <p>{item.Achievements}</p>
-                  </div>
-                </div>
-              );
-            })}
-        </div>
-      </div>
-      <div className="row work">
-        <div className="three columns header-col">
-          <h1>
-            <span>Work</span>
-          </h1>
-        </div>
-
-        <div className="nine columns main-col">
-          {data.work &&
-            data.work.map((item, index) => {
-              return (
-                <div className="row item" key={index}>
-                  <div className="twelve columns">
-                    <h3>{item.CompanyName}</h3>
-                    <p className="info">
+                      </em>{' '}
+                      <span> | </span>
                       {item.specialization}
-                      <span>&bull;</span>{' '}
-                      <em className="date">
-                        {item.MonthOfLeaving} {item.YearOfLeaving}
-                      </em>
                     </p>
-                    <p>{item.Achievements}</p>
                   </div>
                 </div>
               );
@@ -113,24 +286,54 @@ export default function Resume() {
             <span>Skills</span>
           </h1>
         </div>
+        <div className="container skills">
+          <div className="nine columns main-col">
+            <p className="skilldescription">{data.skillsDescriptionOne}</p>
 
-        <div className="nine columns main-col">
-          <p>{data.skillsDescription}</p>
+            <div className="bars">
+              <ul className="skills skillsone">
+                {data.skills &&
+                  data.skills.map((item, index) => {
+                    return (
+                      <li key={index}>
+                        <BarExpand
+                          style={{
+                            width: item.skillpercent
+                          }}
+                          className={` ${item.skillname
+                            .toLowerCase()
+                            .replace(' ', '')}`}
+                        ></BarExpand>
+                        <em>{item.skillname}</em>
+                      </li>
+                    );
+                  })}
+              </ul>
+            </div>
+          </div>
+          <div className="nine columns main-col">
+            <p className="skilldescription">{data.skillsDescriptionTwo}</p>
 
-          <div className="bars">
-            <ul className="skills">
-              {data.skills &&
-                data.skills.map((item, index) => {
-                  return (
-                    <li key={index}>
-                      <span
-                        className={`bar-expand ${item.skillname.toLowerCase()}`}
-                      ></span>
-                      <em>{item.skillname}</em>
-                    </li>
-                  );
-                })}
-            </ul>
+            <div className="bars">
+              <ul className="skills skillstwo">
+                {data.skillsTwo &&
+                  data.skillsTwo.map((item, index) => {
+                    return (
+                      <li key={index}>
+                        <BarExpand
+                          style={{
+                            width: item.skillpercent
+                          }}
+                          className={` ${item.skillname
+                            .toLowerCase()
+                            .replace(' ', '')}`}
+                        ></BarExpand>
+                        <em>{item.skillname}</em>
+                      </li>
+                    );
+                  })}
+              </ul>
+            </div>
           </div>
         </div>
       </div>
