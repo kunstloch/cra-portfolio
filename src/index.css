@@ -1203,7 +1203,7 @@ footer .social-links li:first-child {
 
   .bars li em {
     font-size: 8px;
-    font-stretch: narrower;
+    letter-spacing: -0.3px;
   }
 
   .skilldescription {
