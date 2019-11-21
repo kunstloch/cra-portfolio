@@ -3,18 +3,18 @@ import React from 'react';
 let data = {
   portfolio: [
     {
-      name: 'project1',
-      description: 'mobileapp',
+      name: 'PrayNow',
+      description: 'social media mobile webapp',
       imgurl: require('./project-1.jpg')
     },
     {
-      name: 'project2',
-      description: 'mobileapp',
+      name: 'ToDo List',
+      description: 'React ToDo List',
       imgurl: require('./project-2.jpg')
     },
     {
-      name: 'project3',
-      description: 'mobileapp',
+      name: 'Sentiment Analysis',
+      description: 'node.js program to analyze mood of text',
       imgurl: require('./project-3.jpg')
     }
   ]

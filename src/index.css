@@ -677,6 +677,13 @@ call-to-action .button {
   font: 18px/36px 'opensans-light', sans-serif;
   padding-right: 3%;
 }
+
+.inprint {
+  font-size: 10px;
+  text-align: right;
+  margin-right: 20px;
+}
+
 #contact .header-col {
   padding-top: 6px;
 }
@@ -961,6 +968,12 @@ footer .social-links li:first-child {
   }
   #contact .section-head p.lead {
     font: 17px/33px opensans-light, sans-serif;
+  }
+  .inprint {
+    font-size: 10px;
+    text-align: center;
+    bottom: 10px;
+    margin-top: 50px;
   }
 }
 
