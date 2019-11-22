@@ -14,7 +14,7 @@ let data = {
     },
     {
       name: 'xing',
-      url: 'https://www.xing.com/app/startpage',
+      url: 'https://www.xing.com/profile/Alexander_SchererSokolowski',
       className: 'fa fa-twitter'
     }
   ]

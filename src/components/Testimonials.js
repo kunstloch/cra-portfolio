@@ -1,4 +1,5 @@
 import React from 'react';
+import alexscherer from './alexscherer2.jpg';
 
 let data = {
   testimonials: [
@@ -19,13 +20,25 @@ export default function Testimonials() {
       <div className="text-container">
         <div className="row">
           <div className="two columns header-col">
+            <img
+              id="profileimagecontact"
+              src={alexscherer}
+              alt="alexander scherer profile"
+              width="120px"
+            />
             <h1>
-              <span>Alexander Scherer</span>
+              <span>Alexander Scherer-Sokolowski</span>
             </h1>
           </div>
           <div className="ten columns flex-container">
             <div className="flexslider">
-              <ul className="slides">
+              <div>
+                Feel free to contact me for any work or suggestions below
+              </div>
+              <p>Linkedin</p>
+              <p>Github</p>
+              <p>Mail</p>
+              {/* <ul className="slides">
                 {data.testimonials &&
                   data.testimonials.map((item, index) => {
                     return (
@@ -37,7 +50,7 @@ export default function Testimonials() {
                       </li>
                     );
                   })}
-              </ul>
+              </ul> */}
             </div>
           </div>
         </div>

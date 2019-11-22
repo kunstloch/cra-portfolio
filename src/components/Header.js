@@ -45,13 +45,13 @@ export default function Header() {
               <a href="#resume">Resume</a>
             </li>
             <li>
-              <a href="#portfolio">Works</a>
+              <a href="#portfolio">Projects</a>
             </li>
             <li>
-              <a href="#testimonials">Testimonials</a>
+              <a href="#testimonials">Contact</a>
             </li>
             <li>
-              <a href="#contact">Contact</a>
+              <a href="#contact">Inprint</a>
             </li>
           </ul>
         </nav>

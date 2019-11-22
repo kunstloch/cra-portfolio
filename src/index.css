@@ -564,6 +564,17 @@ call-to-action .button {
 /* g. Testimonials
 /* ------------------------------------------------------------------ */
 
+#profileimagecontact {
+  /* border: 2px solid white; */
+}
+
+.flexslider {
+  margin-top: 100px;
+  color: white;
+  font-size: 20px;
+  margin-left: 30px;
+}
+
 #testimonials {
   background: #1f1f1f url(./vienna.jpg) no-repeat center center;
   background-size: cover !important;
@@ -584,11 +595,12 @@ call-to-action .button {
   text-transform: uppercase;
   letter-spacing: 3px;
   color: #fff;
+  font-weight: bold;
 }
 #testimonials .header-col {
   padding-top: 9px;
 }
-#testimonials .header-col h1:before {
+/* #testimonials .header-col h1:before {
   font-family: 'FontAwesome';
   content: '\f10d';
   padding-right: 10px;
@@ -597,7 +609,7 @@ call-to-action .button {
   text-align: left;
   float: left;
   color: #fff;
-}
+} */
 
 /*	Blockquotes */
 #testimonials blockquote {
@@ -606,9 +618,9 @@ call-to-action .button {
   position: relative;
   text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
 }
-#testimonials blockquote:before {
+/* #testimonials blockquote:before {
   content: none;
-}
+} */
 #testimonials blockquote p {
   font-family: 'librebaskerville-italic', serif;
   padding: 0;
@@ -623,9 +635,9 @@ call-to-action .button {
   line-height: 18px;
   color: #fff;
 }
-#testimonials blockquote cite:before {
+/* #testimonials blockquote cite:before {
   content: '\2014 \0020';
-}
+} */
 #testimonials blockquote cite a,
 #testimonials blockquote cite a:visited {
   color: #8b9798;
@@ -638,7 +650,7 @@ call-to-action .button {
 
 #contact {
   background: #191919;
-  padding-top: 96px;
+  padding-top: 76px;
   padding-bottom: 102px;
   color: #636363;
 }
@@ -687,7 +699,7 @@ call-to-action .button {
 }
 
 .inprint {
-  font-size: 10px;
+  font-size: 16px;
   text-align: right;
   margin-right: 20px;
 }
@@ -705,7 +717,7 @@ call-to-action .button {
   margin: 12px 0;
   color: #ebeeee;
   display: inline-block;
-  float: left;
+
   width: 26%;
 }
 #contact input,
@@ -949,6 +961,7 @@ footer .social-links li:first-child {
 
   /* Testimonials Section
  ------------------------------------------------------------------- */
+
   #testimonials .header-col h1:before {
     font-size: 66px;
     line-height: 66px;
