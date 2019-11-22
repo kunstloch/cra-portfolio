@@ -46,8 +46,8 @@ export default function About() {
               <h2>Contact Details</h2>
               <p className="address">
                 <span>{data.name}</span>
-                <br></br>
-                <span>{data.address}</span>
+                {/* <br></br>
+                <span>{data.address}</span> */}
                 <br></br>
                 <span>{data.website}</span>
               </p>
