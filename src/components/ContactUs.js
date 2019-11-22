@@ -27,7 +27,7 @@ export default function ContactUs() {
       </div>
       <p className="inprint">
         Impressum: Alexander Scherer-Sokolowski | Tel: +43 664 7501 8228 |
-        Schulstrasse 1 - 7304 Gr0ßwarasdorf - Österreich
+        Schulstrasse 1 - 7304 Grosswarasdorf - Österreich
       </p>
     </section>
   );
