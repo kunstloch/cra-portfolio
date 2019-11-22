@@ -409,30 +409,6 @@ ul#nav li.current a {
   padding-left: 0;
 }
 
-.bars li {
-  position: relative;
-  margin-bottom: 40px;
-  /* background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(60, 202, 246, 1) 60%,
-    rgba(11, 189, 244, 1) 100%
-  ); */
-  background: white;
-  border: black solid 2px;
-
-  /* height: 22px; */
-  border-radius: 3px;
-}
-.bars li em {
-  font: 15px 'opensans-bold', sans-serif;
-  color: #313131;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-weight: normal;
-  position: relative;
-  top: -26px;
-}
 /* .bar-expand {
   position: absolute;
   left: 0;
@@ -450,6 +426,11 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
 /* ------------------------------------------------------------------ */
+
+.portfolio-item h4 {
+  margin-left: 10px;
+  font-weight: bold;
+}
 
 #portfolio {
   background: #ebeeee;
@@ -494,10 +475,24 @@ ul#nav li.current a {
 .portfolio-item .item-img {
   width: 100%;
 }
-.portfolio-item h3 {
+.portfolio-item h3 span {
   text-align: center;
   margin-top: 35px;
   text-decoration: none;
+  text-transform: uppercase;
+  border-bottom: 3px solid #0bbdf4;
+  padding-bottom: 6px;
+  font: 18px/24px 'opensans-bold', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+  margin: 30px 0 30px 25px;
+}
+
+.portfolio-item p {
+  min-height: 100px;
+  margin: 0 30px 20px 30px;
+  font: 16px/24px 'opensans-bold', sans-serif;
 }
 
 .portfolio-item p {
@@ -1225,6 +1220,8 @@ footer .social-links li:first-child {
 
   #resume .main-col {
     padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   #resume h3 span {
@@ -1716,7 +1713,7 @@ properly.
 /* mobile narrow (AS)
 --------------------------------------------------------------- */
 @media only screen and (max-width: 992px) {
-  .bars li em {
+  .bars li div {
     font: 10px 'opensans-bold', sans-serif;
   }
 }

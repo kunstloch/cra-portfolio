@@ -134,7 +134,7 @@ let data = {
     },
     {
       skillname: 'GIT',
-      skillpercent: '65%',
+      skillpercent: '55%',
       skillcolor: '#3E2C00'
     }
   ],
@@ -188,35 +188,22 @@ let data = {
   ]
 };
 
-const BarExpand = styled.span`
-  position: absolute;
-  /* left: ; */
-  top: 0;
-  background: #0bbdf4;
-
-  margin: 0;
-  padding-right: 22px;
-
-  display: inline - block;
-  height: 21px;
-  /* border-left: 1px solid black; */
-  line-height: 21px;
-  /* border-radius: 3px 0 0 3px; */
+const ContainerSkill = styled.div`
+  border: 0.1rem solid black;
+  border-radius: 3px;
+  margin-bottom: 10px;
 `;
 
-// .bar-expand {
-//   position: absolute;
-//   left: 0;
-//   top: 0;
+const TitleSkill = styled.div`
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 6px;
+`;
 
-//   margin: 0;
-//   padding - right: 24px;
-//   background: #313131;
-//   display: inline - block;
-//   height: 42px;
-//   line - height: 42px;
-//   border - radius: 3px 0 0 3px;
-// }
+const BarExpand = styled.div`
+  background: #0bbdf4;
+  height: 22px;
+`;
 
 export default function Resume() {
   return (
@@ -296,15 +283,17 @@ export default function Resume() {
                   data.skills.map((item, index) => {
                     return (
                       <li key={index}>
-                        <BarExpand
-                          style={{
-                            width: item.skillpercent
-                          }}
-                          className={` ${item.skillname
-                            .toLowerCase()
-                            .replace(' ', '')}`}
-                        ></BarExpand>
-                        <em>{item.skillname}</em>
+                        <TitleSkill>{item.skillname}</TitleSkill>
+                        <ContainerSkill>
+                          <BarExpand
+                            style={{
+                              width: item.skillpercent
+                            }}
+                            className={` ${item.skillname
+                              .toLowerCase()
+                              .replace(' ', '')}`}
+                          ></BarExpand>
+                        </ContainerSkill>
                       </li>
                     );
                   })}
@@ -320,15 +309,17 @@ export default function Resume() {
                   data.skillsTwo.map((item, index) => {
                     return (
                       <li key={index}>
-                        <BarExpand
-                          style={{
-                            width: item.skillpercent
-                          }}
-                          className={` ${item.skillname
-                            .toLowerCase()
-                            .replace(' ', '')}`}
-                        ></BarExpand>
-                        <em>{item.skillname}</em>
+                        <TitleSkill>{item.skillname}</TitleSkill>
+                        <ContainerSkill>
+                          <BarExpand
+                            style={{
+                              width: item.skillpercent
+                            }}
+                            className={` ${item.skillname
+                              .toLowerCase()
+                              .replace(' ', '')}`}
+                          ></BarExpand>
+                        </ContainerSkill>
                       </li>
                     );
                   })}
