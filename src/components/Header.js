@@ -88,9 +88,9 @@ export default function Header() {
         </div>
 
         <p className="scrolldown">
-          <a href="#about">
+          {/* <a href="#about">
             <i className="icon-down-circle"></i>
-          </a>
+          </a> */}
         </p>
       </header>
     </>

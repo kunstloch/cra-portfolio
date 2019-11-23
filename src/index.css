@@ -136,7 +136,7 @@ header .social li a img {
   border-radius: 50%;
 }
 
-header .social li a img:hover {
+header .social li img:hover {
   background-color: #0bbdf4;
   border-radius: 50%;
 }
