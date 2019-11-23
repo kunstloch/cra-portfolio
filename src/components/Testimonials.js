@@ -1,5 +1,7 @@
 import React from 'react';
 import alexscherer from './alexscherer2.jpg';
+import linkedin from './linkedin.png';
+import github from './github.png';
 
 let data = {
   testimonials: [
@@ -35,9 +37,26 @@ export default function Testimonials() {
               <div>
                 Feel free to contact me for any work or suggestions below
               </div>
-              <p>Linkedin</p>
-              <p>Github</p>
-              <p>Mail</p>
+              <p>
+                <a
+                  href="http://www.linkedin.com/in/alexanderscherer"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={linkedin} alt="linkedin logo" />
+                </a>
+              </p>
+              <p>
+                <a
+                  href="https://github.com/kunstloch"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={github} alt="github logo" />
+                </a>
+              </p>
+
+              <p></p>
               {/* <ul className="slides">
                 {data.testimonials &&
                   data.testimonials.map((item, index) => {

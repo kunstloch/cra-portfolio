@@ -575,6 +575,18 @@ call-to-action .button {
   margin-left: 30px;
 }
 
+.flexslider img {
+  height: 45px;
+  padding-bottom: 6px;
+  border-bottom: 4px solid transparent;
+}
+
+.flexslider img:hover {
+  height: 45px;
+  padding-bottom: 6px;
+  border-bottom: 4px solid #0bbdf4;
+}
+
 #testimonials {
   background: #1f1f1f url(./vienna.jpg) no-repeat center center;
   background-size: cover !important;
@@ -599,6 +611,7 @@ call-to-action .button {
 }
 #testimonials .header-col {
   padding-top: 9px;
+  padding-right: 10px;
 }
 /* #testimonials .header-col h1:before {
   font-family: 'FontAwesome';

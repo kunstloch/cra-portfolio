@@ -38,6 +38,7 @@ export default function Footer() {
         </div>
         <div id="go-top">
           <a title="Back to Top" href="#home">
+            ︿
             <i className="icon-up-open" />
           </a>
         </div>
