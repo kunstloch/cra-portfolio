@@ -34,9 +34,7 @@ export default function Testimonials() {
           </div>
           <div className="ten columns flex-container">
             <div className="flexslider">
-              <div>
-                Feel free to contact me for any work or suggestions below
-              </div>
+              <div>Feel free to contact me for any inquiries below.</div>
               <p>
                 <a
                   href="http://www.linkedin.com/in/alexanderscherer"

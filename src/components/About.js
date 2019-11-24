@@ -22,23 +22,23 @@ export default function About() {
           <p>
             After 15 successful years in b2b sales and business development -
             from cold calling to project implementation in the area of SaaS
-            platforms - it was time for me to focus on something I've been
+            platforms - it was time for me to focus on something I have been
             interested in all along: to be able to understand online products
-            "behind the scenes" and actively influence how they are build.
+            "behind the scenes" and actively influence how they are built.
           </p>
           <p>
-            In an intensive web development bootcamp education at UpLeveled, I
-            not only learned JavaScript, React, HTML and CSS, but also applied
+            In an intensive web development boot camp education at UpLeveled, I
+            not only learned JavaScript, React, HTML, and CSS, but also applied
             these in many practical exercises and projects. I also work with
-            Nexts.js, TypeScript and GraphQL as part of first end-to-end
+            Nexts.js, TypeScript, and GraphQL as part of first end-to-end
             applications.
           </p>
           <p>
-            The bootcamp was only the beginning of my lifelong-learning journey
-            in web development, but a good proof that I can learn complex
+            The boot camp was only the beginning of my lifelong-learning journey
+            in web development, and an excellent proof that I can learn complex
             subjects in a very short time. I am convinced that combining my web
             development knowledge with the long-time experience in sales is a
-            benefit that my future employer will profit from.
+            benefit for my future employer.
           </p>
 
           <div className="row">

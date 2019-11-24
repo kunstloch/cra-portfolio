@@ -18,7 +18,7 @@ let data = {
       Achievements: 'Some Achievements'
     },
     {
-      UniversityName: `Higher School Certificat`,
+      UniversityName: `Higher School Certificate`,
       specialization: `Bundesrealgymnasium Zell am See`,
       MonthOfPassing: '   ',
       YearOfPassing: '1995',
