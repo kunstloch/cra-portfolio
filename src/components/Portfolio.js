@@ -5,7 +5,7 @@ let data = {
     {
       name: 'PrayNow',
       info: 'social media mobile webapp',
-      description: `Next-js, set up Database with GraphCMS, connecting Cloudinary for hosting images, authorization and authentication implementing Auth0
+      description: `Next.js, set up Database with GraphCMS, connecting Cloudinary for hosting images, authorization and authentication implementing Auth0
 `,
       imgurl: require('./project-1.jpg')
     },
