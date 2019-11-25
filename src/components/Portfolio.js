@@ -41,7 +41,11 @@ export default function Porfolio() {
                           <span>{item.name}</span>
                         </h3>
                         {/* <h4>{item.info}</h4> */}
-                        <img src={`${item.imgurl}`} className="item-img" />
+                        <img
+                          src={`${item.imgurl}`}
+                          className="item-img"
+                          alt="screen with project"
+                        />
                         <div className="overlay">
                           <div className="portfolio-item-meta">
                             <h4>Used Technologies:</h4>

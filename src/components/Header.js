@@ -71,7 +71,11 @@ export default function Header() {
                 data.socialLinks.map(item => {
                   return (
                     <li key={item.name}>
-                      <a href={item.url} target="_blank">
+                      <a
+                        href={item.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         {/* {item.name} */}
                         <img
                           src={item.image}
