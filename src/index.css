@@ -482,7 +482,7 @@ ul#nav li.current a {
   text-transform: uppercase;
   border-bottom: 3px solid #0bbdf4;
   padding-bottom: 6px;
-  font: 18px/24px 'opensans-bold', sans-serif;
+  font: calc(0.5em + 0.5vw) 'opensans-bold', sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
 
@@ -1752,6 +1752,35 @@ properly.
   }
 }
 
+/* mobile unter 390px
+--------------------------------------------------------------- */
+
+@media only screen and (max-width: 390px) {
+  .skillsone li {
+    width: 100px;
+    padding-left: 0px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 0;
+  }
+
+  .skillsone ul {
+    padding-left: 10px;
+  }
+
+  .skillstwo li {
+    width: 100px;
+    padding-left: 0px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 0;
+  }
+
+  .bars li div {
+    font: 8px 'opensans-bold', sans-serif;
+  }
+}
+
 /* larger screens
 --------------------------------------------------------------- */
 @media screen and (min-width: 1200px) {
@@ -1765,7 +1794,7 @@ properly.
 /* ------------------------------------------------------------------ */
 
 /*  1. Clearing
-   (http://nicolasgallagher.com/micro-clearfix-hack/
+   
 --------------------------------------------------------------------- */
 
 .cf:before,

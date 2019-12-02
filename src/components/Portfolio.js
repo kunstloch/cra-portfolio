@@ -7,21 +7,21 @@ let data = {
       info: 'social media mobile webapp',
       description: `Next.js, set up Database with GraphCMS, connecting Cloudinary for hosting images, authorization and authentication implementing Auth0
 `,
-      imgurl: require('./project-1.jpg')
+      imgurl: require('./project-1.jpg'),
     },
     {
-      name: 'Ecommerce Webstore',
+      name: 'eCommerce Store',
       info: ' ',
       description: `Next.js, TypeScript, data fetching, using cookies, styled components, setting up and connecting to PostgreSQL database, using state hooks`,
-      imgurl: require('./project-2.jpg')
+      imgurl: require('./project-2.jpg'),
     },
     {
       name: 'Sentiment Analysis',
       info: 'program to analyze mood of text',
       description: `Node.js, use of an API`,
-      imgurl: require('./project-3.jpg')
-    }
-  ]
+      imgurl: require('./project-3.jpg'),
+    },
+  ],
 };
 
 export default function Porfolio() {
