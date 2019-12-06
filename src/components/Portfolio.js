@@ -10,7 +10,7 @@ let data = {
       imgurl: require('./project-1.jpg')
     },
     {
-      name: 'Ecommerce Webstore',
+      name: 'eCommerce Store',
       info: ' ',
       description: `Next.js, TypeScript, data fetching, using cookies, styled components, setting up and connecting to PostgreSQL database, using state hooks`,
       imgurl: require('./project-2.jpg')

@@ -564,9 +564,9 @@ call-to-action .button {
 /* g. Testimonials
 /* ------------------------------------------------------------------ */
 
-#profileimagecontact {
-  /* border: 2px solid white; */
-}
+/* #profileimagecontact {
+  border: 2px solid white;
+} */
 
 .flexslider {
   margin-top: 100px;
@@ -1846,5 +1846,5 @@ properly.
   text-align: center !important;
 }
 
-.widget h4 img {
-}
+/* .widget h4 img {
+} */
