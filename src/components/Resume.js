@@ -29,7 +29,7 @@ let data = {
     {
       CompanyName: 'Staymate OG',
       CompanyInfo: 'Vienna -  the digital hotel assistant ',
-      specialization: 'Software Developer',
+      specialization: 'Software Engineer',
       MonthOfLeaving: ' present',
       YearOfLeaving: '',
       MonthOfStarting: 'Feb',
