@@ -51,7 +51,7 @@ export default function Header() {
               <a href="#testimonials">Contact</a>
             </li>
             <li>
-              <a href="#contact">Inprint</a>
+              <a href="#contact">Impressum</a>
             </li>
           </ul>
         </nav>

@@ -711,7 +711,7 @@ call-to-action .button {
   padding-right: 3%;
 }
 
-.inprint {
+.impressum {
   font-size: 16px;
   text-align: right;
   margin-right: 20px;
@@ -1003,7 +1003,7 @@ footer .social-links li:first-child {
   #contact .section-head p.lead {
     font: 17px/33px opensans-light, sans-serif;
   }
-  .inprint {
+  .impressum {
     font-size: 10px;
     text-align: center;
     bottom: 10px;

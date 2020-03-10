@@ -8,33 +8,33 @@ let data = {
       specialization: 'UpLeveled GmbH',
       MonthOfPassing: 'Nov',
       YearOfPassing: '2019',
-      Achievements: 'Some Achievements',
+      Achievements: 'Some Achievements'
     },
     {
       UniversityName: 'Communications And Political Science',
       specialization: 'University of Vienna - Second Study Section Completed',
       MonthOfPassing: '   ',
       YearOfPassing: '2005',
-      Achievements: 'Some Achievements',
+      Achievements: 'Some Achievements'
     },
     {
       UniversityName: `Higher School Certificate`,
       specialization: `Bundesrealgymnasium Zell am See`,
       MonthOfPassing: '   ',
       YearOfPassing: '1995',
-      Achievements: 'Some Achievements',
-    },
+      Achievements: 'Some Achievements'
+    }
   ],
   work: [
     {
       CompanyName: 'Staymate OG',
       CompanyInfo: 'Vienna -  the digital hotel assistant ',
-      specialization: 'Junior Web Developer',
+      specialization: 'Software Developer',
       MonthOfLeaving: ' present',
       YearOfLeaving: '',
       MonthOfStarting: 'Feb',
       YearOfStarting: '2020',
-      Achievements: '',
+      Achievements: ''
     },
 
     {
@@ -45,7 +45,7 @@ let data = {
       YearOfLeaving: '2019',
       MonthOfStarting: 'Jan',
       YearOfStarting: '2017',
-      Achievements: '',
+      Achievements: ''
     },
     {
       CompanyName: 'Adverity GmbH',
@@ -57,7 +57,7 @@ let data = {
       MonthOfStarting: 'Jul',
       YearOfStarting: '2014',
       Achievements: `
-      `,
+      `
     },
     {
       CompanyName: 'kununu GmbH / Xing',
@@ -67,7 +67,7 @@ let data = {
       YearOfLeaving: '2014',
       MonthOfStarting: 'Jun',
       YearOfStarting: '2011',
-      Achievements: '',
+      Achievements: ''
     },
     {
       CompanyName: 'Immobilien.NET',
@@ -77,7 +77,7 @@ let data = {
       YearOfLeaving: '2011',
       MonthOfStarting: 'Aug',
       YearOfStarting: '2009',
-      Achievements: '',
+      Achievements: ''
     },
     {
       CompanyName: 'StepStone Österreich GmbH',
@@ -87,7 +87,7 @@ let data = {
       YearOfLeaving: '2009',
       MonthOfStarting: 'Jul',
       YearOfStarting: '2008',
-      Achievements: '',
+      Achievements: ''
     },
     {
       CompanyName: 'EMBERS Consulting',
@@ -97,105 +97,105 @@ let data = {
       YearOfLeaving: '2009',
       MonthOfStarting: 'Nov',
       YearOfStarting: '2006',
-      Achievements: '',
-    },
+      Achievements: ''
+    }
   ],
   skillsDescriptionOne: 'Tech Skills',
   skills: [
     {
       skillname: 'JavaScript',
       skillpercent: '70%',
-      skillcolor: '#f7df1e',
+      skillcolor: '#f7df1e'
     },
     {
       skillname: 'React',
       skillpercent: '70%',
-      skillcolor: '#61DBFB',
+      skillcolor: '#61DBFB'
     },
     {
       skillname: 'Next.js',
       skillpercent: '70%',
-      skillcolor: '#323232',
+      skillcolor: '#323232'
     },
     {
       skillname: 'Node.js',
       skillpercent: '60%',
-      skillcolor: '#68A063',
+      skillcolor: '#68A063'
     },
     {
       skillname: 'TypeScript',
       skillpercent: '50%',
-      skillcolor: '#007acc',
+      skillcolor: '#007acc'
     },
     {
       skillname: 'HTML5',
       skillpercent: '70%',
-      skillcolor: '#f06529',
+      skillcolor: '#f06529'
     },
     {
       skillname: 'CSS3',
       skillpercent: '75%',
-      skillcolor: '#2965f1',
+      skillcolor: '#2965f1'
     },
     {
       skillname: 'GraphQL',
       skillpercent: '58%',
-      skillcolor: ' #e535ab',
+      skillcolor: ' #e535ab'
     },
     {
       skillname: 'GIT',
       skillpercent: '55%',
-      skillcolor: '#3E2C00',
-    },
+      skillcolor: '#3E2C00'
+    }
   ],
   skillsDescriptionTwo: 'Soft Skills',
   skillsTwo: [
     {
       skillname: 'Communication ',
       skillpercent: '80%',
-      skillcolor: '#f7df1e',
+      skillcolor: '#f7df1e'
     },
     {
       skillname: 'Teachability ',
       skillpercent: '78%',
-      skillcolor: '#61DBFB',
+      skillcolor: '#61DBFB'
     },
     {
       skillname: 'Abstract Thinking',
       skillpercent: '70%',
-      skillcolor: '#323232',
+      skillcolor: '#323232'
     },
     {
       skillname: 'Persistence',
       skillpercent: '67%',
-      skillcolor: '#68A063',
+      skillcolor: '#68A063'
     },
     {
       skillname: 'Helpfulness',
       skillpercent: '82%',
-      skillcolor: '#007acc',
+      skillcolor: '#007acc'
     },
     {
       skillname: 'Creativity',
       skillpercent: '70%',
-      skillcolor: '#f06529',
+      skillcolor: '#f06529'
     },
     {
       skillname: 'Patience',
       skillpercent: '63%',
-      skillcolor: '#2965f1',
+      skillcolor: '#2965f1'
     },
     {
       skillname: 'Project Planning',
       skillpercent: '73%',
-      skillcolor: ' #e535ab',
+      skillcolor: ' #e535ab'
     },
     {
       skillname: 'Critical Thinking',
       skillpercent: '88%',
-      skillcolor: '#3E2C00',
-    },
-  ],
+      skillcolor: '#3E2C00'
+    }
+  ]
 };
 
 const ContainerSkill = styled.div`
@@ -298,7 +298,7 @@ export default function Resume() {
                         <ContainerSkill>
                           <BarExpand
                             style={{
-                              width: item.skillpercent,
+                              width: item.skillpercent
                             }}
                             className={` ${item.skillname
                               .toLowerCase()
@@ -324,7 +324,7 @@ export default function Resume() {
                         <ContainerSkill>
                           <BarExpand
                             style={{
-                              width: item.skillpercent,
+                              width: item.skillpercent
                             }}
                             className={` ${item.skillname
                               .toLowerCase()
