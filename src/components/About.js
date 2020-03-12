@@ -5,7 +5,7 @@ let data = {
   name: 'Alexander Scherer-Sokolowski',
   aboutme: ``,
   address: 'Austria',
-  website: 'alex.scherer@gmx.at'
+  website: 'alex.scherer@gmx.at',
 };
 
 export default function About() {
@@ -35,10 +35,10 @@ export default function About() {
           </p>
           <p>
             The boot camp was only the beginning of my lifelong-learning journey
-            in web development, and an excellent proof that I can learn complex
-            subjects in a very short time. I am convinced that combining my web
-            development knowledge with the long-time experience in sales is a
-            benefit for my future employer.
+            in software development, and an excellent proof that I can learn
+            complex subjects in a very short time. I am convinced that combining
+            my web development knowledge with the long-time experience in sales
+            is a benefit for my future employer.
           </p>
 
           <div className="row">

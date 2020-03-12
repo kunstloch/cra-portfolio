@@ -12,21 +12,21 @@ let data = {
       name: 'linkedin',
       url: 'https://www.linkedin.com/in/alexanderscherer/',
       className: 'fa fa-linkedin',
-      image: linkedInLogo
+      image: linkedInLogo,
     },
     {
       name: 'github',
       url: 'https://github.com/kunstloch',
       className: 'fa fa-github',
-      image: githubLogo
+      image: githubLogo,
     },
     {
       name: 'xing',
       url: 'https://www.xing.com/profile/Alexander_SchererSokolowski',
       className: 'fa fa-xing',
-      image: xingLogo
-    }
-  ]
+      image: xingLogo,
+    },
+  ],
 };
 
 export default function Header() {
@@ -61,7 +61,7 @@ export default function Header() {
             <h1 className="responsive-headline">{data.name}</h1>
 
             <h3>
-              Web Developer <span>with Sales Background</span>
+              Software Developer <span>with Sales Background</span>
               {/* I am a {data.role}.{data.roleDescription} */}
             </h3>
             <hr />
