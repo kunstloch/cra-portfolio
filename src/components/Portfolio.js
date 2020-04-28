@@ -7,24 +7,28 @@ let data = {
       info: 'social media mobile webapp',
       description: `Next.js, set up Database with GraphCMS, connecting Cloudinary for hosting images, authorization and authentication implementing Auth0
 `,
-      imgurl: require('./project-1.jpg')
+      imgurl: require('./project-1.jpg'),
+      link: 'https://praynow.herokuapp.com/'
     },
     {
       name: 'eCommerce Store',
       info: ' ',
       description: `Next.js, TypeScript, data fetching, using cookies, styled components, setting up and connecting to PostgreSQL database, using state hooks`,
-      imgurl: require('./project-2.jpg')
+      imgurl: require('./project-2.jpg'),
+      link: 'https://erntedank.herokuapp.com'
+
     },
     {
       name: 'Sentiment Analysis',
       info: 'program to analyze mood of text',
       description: `Node.js, use of an API`,
-      imgurl: require('./project-3.jpg')
+      imgurl: require('./project-3.jpg'),
+      link: 'https://github.com/kunstloch/sentiment-analysis'
     }
   ]
 };
 
-export default function Porfolio() {
+export default function Porfolio () {
   return (
     <section id="portfolio">
       <div className="row">
@@ -36,7 +40,8 @@ export default function Porfolio() {
                 return (
                   <div className="columns portfolio-item" key={index}>
                     <div className="item-wrap">
-                      <a href="#add-project-link">
+                      <a target="_blank" rel="noopener noreferrer" href={item.link}>
+
                         <h3>
                           <span>{item.name}</span>
                         </h3>
