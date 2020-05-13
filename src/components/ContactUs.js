@@ -5,7 +5,8 @@ export default function ContactUs() {
     <section id="contact">
       <p className="impressum">
         Impressum: Alexander Scherer-Sokolowski | Tel: +43 664 7501 8228 <br />
-        Schulstrasse 1 - 7304 Grosswarasdorf - Österreich
+        Schulstrasse 1 - 7304 Grosswarasdorf - Österreich <br />
+        Mail: alexscherer@outlook.com
       </p>
     </section>
   );
